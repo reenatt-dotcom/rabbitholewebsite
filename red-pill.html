@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Matrix - Red Pill</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav>
+        <span class="inline-nav">
+          <a href="index.html" class="pill-button red-pill">Home</a>
+          <a href="red-pill.html" class="pill-button blue-pill">Page 1</a>
+          <a href="page2.html" class="pill-button blue-pill">Page 2</a>
+          <a href="page3.html" class="pill-button blue-pill">Page 3</a>
+          <a href="page4.html" class="pill-button blue-pill">Page 4</a>
+          <a href="page5.html" class="pill-button blue-pill">Page 5</a>
+          <a href="page6.html" class="pill-button blue-pill">Page 6</a>
+          <a href="page7.html" class="pill-button blue-pill">Page 7</a>
+        </span>
+      </nav>
+  <div class="container">
+    <h1 class="part-heading">Part 1: Exposition</h1>
+    <div id="audio-player">
+        <audio id="my-audio" src="clubbedtodeath.mp3"></audio>
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+      </div>
+    <p class="spoiler-warning"><strong>Spoiler Alert:</strong></p>
+    <p>If you haven't watched The Matrix and don't want any spoilers, we advise you to go back and take the blue pill.</p>
+    <p>Welcome to the world of The Matrix, a simulated reality created by sentient machines to control humanity. In this world, people live their lives unaware of the truth, trapped in a virtual prison of their own minds.</p>
+    <p>Our story follows Neo, a computer hacker who suspects that something is not quite right with the world around him. Little does he know that his suspicions will lead him down a rabbit hole into a world of truth, danger, and rebellion.</p>
+    <p>As Neo embarks on his journey, he discovers the existence of the resistance, a group of rebels fighting against the machines and seeking to awaken humanity from its slumber. Led by the enigmatic Morpheus, they offer Neo a choice: the red pill or the blue pill.</p>
+    <p>Will Neo take the red pill and learn the truth about The Matrix, or will he choose the blue pill and remain in blissful ignorance? The choice is his, and it will determine the course of his destiny.</p>
+  </div>
+
+  <nav>
+    <button class="pill-button blue-pill" onclick="goBack()">Go Back</button>
+    <button class="pill-button red-pill" onclick="continueJourney()">Continue</button>
+  </nav>
+
+  <footer class="footer">
+    <p>&copy; 2023 Rabbit Hole Website. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function goBack() {
+        window.location.href = "index.html";
+    }
+
+    function continueJourney() {
+      window.location.href = "page2.html";
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

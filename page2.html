@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Matrix - Page 2</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <span class="inline-nav">
+            <a href="index.html" class="pill-button red-pill">Home</a>
+            <a href="red-pill.html" class="pill-button blue-pill">Page 1</a>
+            <a href="page2.html" class="pill-button blue-pill">Page 2</a>
+          </span>
+        </nav>
+      </header>
+  <div class="container">
+    <h1 class="part-heading">Part 2: Inciting Incident</h1>
+    <div id="audio-player">
+        <audio id="my-audio" src="clubbedtodeath.mp3"></audio>
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+      </div>
+    <p class="spoiler-warning"><strong>Spoiler Alert:</strong></p>
+    <p>If you haven't watched The Matrix and don't want any spoilers, we advise you to go back and take the blue pill.</p>
+    <p>After choosing the red pill, Neo's perception of reality shatters as he awakens in the real world. He learns that the world he thought was real was merely an elaborate simulation created by machines to keep humanity under control.</p>
+    <p>Now free from the Matrix, Neo joins forces with the resistance to fight against the machines and liberate humanity. Under the guidance of Morpheus, Neo begins his training, exploring his newfound abilities and discovering his role as "The One," the prophesied savior of humanity.</p>
+    <p>The journey ahead is filled with danger, as Neo and his allies face off against the agents, powerful programs within the Matrix designed to maintain control. Along the way, Neo must confront his own doubts and fears, learning to embrace his destiny as he seeks to bring an end to the reign of the machines.</p>
+  </div>
+
+  <nav>
+    <button class="pill-button blue-pill" onclick="goBack()">Go Back</button>
+    <button class="pill-button red-pill" onclick="continueJourney()">Continue</button>
+  </nav>
+
+  <footer class="footer">
+    <p>&copy; 2023 Rabbit Hole Website. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function goBack() {
+        window.location.href = "red-pill.html";
+    }
+
+    function continueJourney() {
+      window.location.href = "page3.html";
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

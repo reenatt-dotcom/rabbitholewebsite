@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>The Matrix - Page 3</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <span class="inline-nav">
+            <a href="index.html" class="pill-button red-pill">Home</a>
+            <a href="red-pill.html" class="pill-button blue-pill">Page 1</a>
+            <a href="page2.html" class="pill-button blue-pill">Page 2</a>
+            <a href="page3.html" class="pill-button blue-pill">Page 3</a>
+          </span>
+        </nav>
+      </header>
+  <div class="container">
+    <h1 class="part-heading">Part 3: Rising Action</h1>
+    <div id="audio-player">
+        <audio id="my-audio" src="clubbedtodeath.mp3"></audio>
+        <button id="play-button">Play</button>
+        <button id="pause-button">Pause</button>
+      </div>
+    <p class="spoiler-warning"><strong>Spoiler Alert:</strong></p>
+    <p>If you haven't watched The Matrix and don't want any spoilers, we advise you to go back and take the blue pill.</p>
+    <p>As Neo continues his training and discovers his abilities within the Matrix, he is faced with the immense responsibility of his role as "The One." Doubts and uncertainties plague him as he struggles to come to terms with his destiny.</p>
+    <p>Neo initially refuses to fully accept his calling, questioning his own abilities and fearing the potential consequences. He seeks guidance from his mentor, Morpheus, who helps him understand the significance of his role in the war against the machines.</p>
+    <p>Through various trials and challenges, Neo gradually overcomes his doubts and begins to embrace his destiny. He realizes that the fate of humanity rests on his shoulders and that he must confront the agents and the Matrix head-on.</p>
+    <p>The journey ahead is perilous, but Neo is now determined to fulfill his purpose and bring about a revolution that could change the course of human history.</p>
+  </div>
+
+  <nav>
+    <button class="pill-button blue-pill" onclick="goBack()">Go Back</button>
+    <button class="pill-button red-pill" onclick="continueJourney()">Continue</button>
+  </nav>
+
+  <footer class="footer">
+    <p>&copy; 2023 Rabbit Hole Website. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function goBack() {
+        window.location.href = "page2.html";
+    }
+
+    function continueJourney() {
+      window.location.href = "page4.html";
+    }
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
